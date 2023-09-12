@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .calculator, .cube {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  input, button {
+    margin: 5px;
+  }
+  
+  .buttons button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #45a049;
+  }
+  
+  #result {
+    font-weight: bold;
+  }
+  
+  canvas {
+    border: 1px solid #000;
+  }
+  
